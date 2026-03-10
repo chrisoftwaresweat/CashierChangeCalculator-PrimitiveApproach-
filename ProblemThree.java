@@ -15,7 +15,7 @@ public class ProblemThree {
         else{
             change=cash-total;
             int remaining=(int)Math.round(change*100);
-            System.out.printf("Total change: %.2f\n", change);
+            System.out.printf("Total change: %.2f\n", change);//.2%f: 100.003456->100.00
             System.out.println("Breakdown:");
 
             int count;
@@ -85,5 +85,6 @@ public class ProblemThree {
         scanner.close();
     }
 }
+
 
 
