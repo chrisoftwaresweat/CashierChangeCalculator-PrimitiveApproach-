@@ -9,7 +9,6 @@ public class ProblemThree {
         total= scanner.nextDouble();
         System.out.print("Enter the cash given: ");
         cash= scanner.nextDouble();
-        scanner.close();
         if(cash<total){
             System.out.println("Insufficient balance");
         }
@@ -84,3 +83,4 @@ public class ProblemThree {
         scanner.close();
     }
 }
+
