@@ -23,6 +23,8 @@ public class ProblemThree {
             count = remaining / 100000;
             if (count > 0) {
                 System.out.printf("1000 x %d\n", count);
+                //we are constantly changing the value of the remainder, for next calculation to be accurate
+                //if we remove ts, the next calculation will calculate unchanged number.
                 remaining = remaining % 100000;
             }
             //500
@@ -83,4 +85,5 @@ public class ProblemThree {
         scanner.close();
     }
 }
+
 
